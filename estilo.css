@@ -133,9 +133,7 @@ font{
 .navegacion{
 	display:flex;
 	height:100px;
-	
 }
-
 .navegacion-item{
 	flex:1;
 	color:#fff;
@@ -145,22 +143,16 @@ font{
 	transition: flex-grow 0.2s;
 	justify-content:center;
 	align-items:center;
-	
-	
-	
-	
-}
+	}
 .navegacion-item:hover{
 	flex-grow:10;
-	
-}
+	}
 .navegacion-item:hover .navegacion-titulo{
 	transform:rotate(0);
 }
 .navegacion-item:nth-child(1){
 	background:#85C1E9;
 }
-
 .navegacion-item:nth-child(2){
 	background:#76D7C4;
 }
@@ -174,7 +166,6 @@ font{
 	margin:0;
 	transform:rotate(-90deg);
 	transition: transform 0.2s 0.2s;
-	
 }
 
 
